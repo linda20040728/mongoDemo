@@ -14,4 +14,4 @@ export const studentsSchemas = new Schema<Student>({
     absences:{ type: Number, required: false,default: 0 },
 });
 
-export const studentsModel = model<Student>('studentlist', studentsSchemas,'studentlist');
+export const studentsModel = model<Student>('studentslist', studentsSchemas,'studentslist');
